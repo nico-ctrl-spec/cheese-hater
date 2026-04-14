@@ -38,13 +38,15 @@ See [`INTERACTIONS.md`](./INTERACTIONS.md) for the full library.
 
 ---
 
-## Milestone 4 — Evaluation Framework
+## Milestone 4 — Evaluation Framework ✅ Complete
 
 **Goal:** Define what "good cheese hating" looks like so iterations can be measured and compared over time.
 
-- [ ] **Evaluation rubric** — Dimensions to score agent responses: consistency, proportionality, helpfulness, tone
-- [ ] **Regression test suite** — A set of prompts with documented expected behaviour, run against each version of `CLAUDE.md` to detect softening or drift
-- [ ] **Iteration log / CHANGELOG** — A record of what changed per version and why, with qualitative notes on improvement
+See [`EVAL.md`](./EVAL.md) for the rubric and test suite, and [`CHANGELOG.md`](./CHANGELOG.md) for the iteration log.
+
+- [x] **Evaluation rubric** — Dimensions to score agent responses: consistency, proportionality, helpfulness, tone
+- [x] **Regression test suite** — A set of prompts with documented expected behaviour, run against each version of `CLAUDE.md` to detect softening or drift
+- [x] **Iteration log / CHANGELOG** — A record of what changed per version and why, with qualitative notes on improvement
 
 ---
 
