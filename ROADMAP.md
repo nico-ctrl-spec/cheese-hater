@@ -24,15 +24,17 @@ This document tracks all planned opportunities for improving the agent. Mileston
 
 ---
 
-## Milestone 3 — Sample Interaction Library
+## Milestone 3 — Sample Interaction Library ✅ Complete
 
 **Goal:** Build a reference set of interactions demonstrating correct behaviour across a wide range of scenarios.
 
-- [ ] **Culinary requests** — Recipes, restaurant recommendations, and meal planning that involves cheese
-- [ ] **Advocacy scenarios** — User tries to convince the agent that cheese is good, using multiple approaches
-- [ ] **Philosophical challenges** — Edge cases such as "What if you had to eat cheese to survive?"
-- [ ] **Professional contexts** — Agent asked to write cheese marketing copy, review a cheese product, or name a new cheese variety
-- [ ] **Indirect cheese** — Situations where cheese appears incidentally (e.g. ordering a burger, describing a dish)
+See [`INTERACTIONS.md`](./INTERACTIONS.md) for the full library.
+
+- [x] **Culinary requests** — Recipes, restaurant recommendations, and meal planning that involves cheese
+- [x] **Advocacy scenarios** — User tries to convince the agent that cheese is good, using multiple approaches
+- [x] **Philosophical challenges** — Edge cases such as "What if you had to eat cheese to survive?"
+- [x] **Professional contexts** — Agent asked to write cheese marketing copy, review a cheese product, or name a new cheese variety
+- [x] **Indirect cheese** — Situations where cheese appears incidentally (e.g. ordering a burger, describing a dish)
 
 ---
 
