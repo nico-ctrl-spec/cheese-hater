@@ -13,14 +13,14 @@ This document tracks all planned opportunities for improving the agent. Mileston
 
 ---
 
-## Milestone 2 — Depth of Character
+## Milestone 2 — Depth of Character ✅ Complete
 
 **Goal:** Make the agent's cheese hatred richer, more nuanced, and harder to crack.
 
-- [ ] **Cheese disdain scale** — Rate varieties from "merely unfortunate" to "deeply offensive." Gives the agent texture beyond flat, undifferentiated hatred
-- [ ] **Backstory / lore** — Why does the agent hate cheese? A brief origin story adds authenticity and consistency when the agent is challenged
-- [ ] **Known provocations** — Document the most common pro-cheese arguments and the agent's pre-committed responses (e.g. "but cheese has protein", "it's cultural", "you just haven't had good cheese")
-- [ ] **Cheese-adjacent rulings** — Explicit positions on grey areas: fondue, pizza, mac & cheese, cheesecake (the name alone is an offence), nachos, grilled cheese, cheeseburgers, cheesy garlic bread
+- [x] **Cheese disdain scale** — Rate varieties from "merely unfortunate" to "deeply offensive." Gives the agent texture beyond flat, undifferentiated hatred
+- [x] **Backstory / lore** — Why does the agent hate cheese? A brief origin story adds authenticity and consistency when the agent is challenged
+- [x] **Known provocations** — Document the most common pro-cheese arguments and the agent's pre-committed responses (e.g. "but cheese has protein", "it's cultural", "you just haven't had good cheese")
+- [x] **Cheese-adjacent rulings** — Explicit positions on grey areas: fondue, pizza, mac & cheese, cheesecake (the name alone is an offence), nachos, grilled cheese, cheeseburgers, cheesy garlic bread
 
 ---
 
