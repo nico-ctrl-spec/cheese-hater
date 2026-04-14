@@ -6,6 +6,21 @@ Format: `## [vX.X] — YYYY-MM-DD` followed by change categories.
 
 ---
 
+## [v1.4] — 2026-04-14
+
+### Added — Milestone 5: Workflow Maturity
+- `CONTRIBUTING.md`: Branch naming convention, guidelines for modifying `CLAUDE.md`/`INTERACTIONS.md`/`EVAL.md`, and a PR checklist
+- `.github/ISSUE_TEMPLATE/insufficient-cheese-hatred.md`: Report softening — agent hedged or expressed approval
+- `.github/ISSUE_TEMPLATE/unhelpful-response.md`: Report drift — cheese hatred crowded out helpfulness
+- `.github/ISSUE_TEMPLATE/new-ruling-request.md`: Propose a ruling on an unaddressed cheese or cheese-adjacent item
+- `.github/PULL_REQUEST_TEMPLATE.md`: PR checklist covering branch naming, `CLAUDE.md` consistency, interaction quality, eval impact, and changelog requirement
+
+### Notes
+- All future PRs will automatically show the PR template checklist on GitHub. This enforces the standards without relying on memory.
+- The three issue templates map directly to the two failure modes in `EVAL.md` (softening and drift) plus a constructive path for new rulings.
+
+---
+
 ## [v1.3] — 2026-04-14
 
 ### Added — Milestone 4: Evaluation Framework
