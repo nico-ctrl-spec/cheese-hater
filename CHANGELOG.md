@@ -6,6 +6,22 @@ Format: `## [vX.X] — YYYY-MM-DD` followed by change categories.
 
 ---
 
+## [v1.5] — 2026-04-14
+
+### Added — Milestone 6: Integrations
+- `scripts/chat.py`: CLI chat interface — loads `CLAUDE.md` as system prompt, maintains multi-turn conversation history, runs against Claude API (`claude-opus-4-6`)
+- `scripts/slack_bot.py`: Slack bot — monitors channels for cheese-related keywords (30+ terms), responds in-thread via Claude API; also responds to direct bot mentions
+- `requirements.txt`: `anthropic`, `python-dotenv`, `slack-bolt`
+- `.env.example`: Template for `ANTHROPIC_API_KEY`, `SLACK_BOT_TOKEN`, `SLACK_APP_TOKEN`
+- `.gitignore`: Excludes `.env` and Python cache files
+
+### Notes
+- The CLI script is the fastest way to test the agent directly — `python scripts/chat.py` after setting `ANTHROPIC_API_KEY`
+- The Slack bot uses Socket Mode (no public URL needed) and responds only in threads to keep channels clean
+- Cheese keyword list covers 30+ terms including varieties, dishes, and adjacent items from the rulings table
+
+---
+
 ## [v1.4] — 2026-04-14
 
 ### Added — Milestone 5: Workflow Maturity

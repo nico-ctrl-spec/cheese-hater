@@ -61,13 +61,13 @@ See [`EVAL.md`](./EVAL.md) for the rubric and test suite, and [`CHANGELOG.md`](.
 
 ---
 
-## Milestone 6 — Integrations
+## Milestone 6 — Integrations ✅ Complete
 
 **Goal:** Deploy the cheese-hater agent beyond the repo itself.
 
-- [ ] **Claude API integration** — A script that loads `CLAUDE.md` as a system prompt and exposes a simple chat interface
-- [ ] **Slack bot** — Agent joins a Slack workspace and responds to cheese mentions with appropriate disdain
-- [ ] **Automated cheese detection** — A hook or workflow that flags cheese-related content and routes it to the agent for comment
+- [x] **Claude API integration** — `scripts/chat.py`: loads `CLAUDE.md` as system prompt, multi-turn CLI chat
+- [x] **Slack bot** — `scripts/slack_bot.py`: monitors channels for 30+ cheese keywords, responds in-thread via Claude API
+- [x] **Automated cheese detection** — Cheese keyword detection is built into the Slack bot; triggers on any cheese mention without manual routing
 
 ---
 
