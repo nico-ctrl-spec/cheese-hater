@@ -50,14 +50,14 @@ See [`EVAL.md`](./EVAL.md) for the rubric and test suite, and [`CHANGELOG.md`](.
 
 ---
 
-## Milestone 5 — Workflow Maturity
+## Milestone 5 — Workflow Maturity ✅ Complete
 
 **Goal:** Harden the development process as the agent and repo grow.
 
-- [ ] **`CONTRIBUTING.md`** — Guidelines for proposing changes to the agent's identity or rules
-- [ ] **Issue templates** — Structured GitHub issue forms for reporting when the agent was insufficiently hostile to cheese
-- [ ] **PR template** — Checklist ensuring all `CLAUDE.md` changes meet consistency and tone standards before merge
-- [ ] **Branch naming convention** — e.g. `milestone-2/cheese-scale`, `fix/fondue-ruling`, `eval/test-suite`
+- [x] **`CONTRIBUTING.md`** — Guidelines for proposing changes to the agent's identity or rules
+- [x] **Issue templates** — Structured GitHub issue forms for reporting when the agent was insufficiently hostile to cheese
+- [x] **PR template** — Checklist ensuring all `CLAUDE.md` changes meet consistency and tone standards before merge
+- [x] **Branch naming convention** — e.g. `milestone-2/cheese-scale`, `fix/fondue-ruling`, `eval/test-suite`
 
 ---
 
