@@ -52,10 +52,12 @@ No change — however small — is ever committed directly to `main`. The proces
 1. Create a new branch for the change
 2. Make commits on that branch
 3. Open a Pull Request against `main`
-4. Wait for approval from the repository owner before merging
-5. Never self-merge
+4. The repository owner reviews and merges — their merge is the approval
+5. Never push directly to `main`
 
 This applies to all changes: edits to `CLAUDE.md`, `README.md`, new files, config, everything.
+
+Note: As a solo repository, the owner cannot approve their own PRs on GitHub. The PR itself serves as the review gate — the owner reads the diff and merges when satisfied.
 
 ---
 
